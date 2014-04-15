@@ -1,5 +1,8 @@
 package com.parabot.pk_honor.thiever;
 
+
+import org.rev317.min.api.methods.Skill;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Piet Jetse
@@ -30,13 +33,13 @@ public enum Stalls {
         return level;
     }
 
-  /*  public static int getIdByLevel() {
+   public static int getIdByLevel() {
         for (int i = 0; i < Stalls.values().length; i++) {
             if (Skill.THIEVING.getLevel() >= Stalls.values()[i].level && Skill.THIEVING.getLevel() < Stalls.values()[i + 1].level) {
                 return Stalls.values()[i].id;
             }
         }
         return -1;
-    }*/
+    }
 }
 
